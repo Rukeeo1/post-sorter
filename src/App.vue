@@ -51,7 +51,6 @@ const movePostUp = (currentPostIndex: number) => {
     const newPostIndex = currentPostIndex - 1
     const tempPost = posts.value[currentPostIndex]
 
-    console.log(tempPost,'***')
     posts.value[currentPostIndex] = posts.value[newPostIndex]
     posts.value[newPostIndex] = tempPost
 

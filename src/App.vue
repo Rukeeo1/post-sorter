@@ -1,5 +1,5 @@
 <template>
-  <div><div class="rectangle"></div></div>
+  <div><div class="backdrop"></div></div>
 
   <div class="app">
     <div class="app__posts">
@@ -132,7 +132,7 @@ onMounted(async () => {
   }
 }
 
-.rectangle {
+.backdrop {
   width: 100%;
   height: 256px;
   background: linear-gradient(to top left, transparent 50%, $purple 50%);

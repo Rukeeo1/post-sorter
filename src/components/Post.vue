@@ -15,7 +15,6 @@ import { PropType, computed } from 'vue'
 import {PostInterface} from '@/interfaces/Post'
 import IconChevronDown from '@/components/icons/IconChevronDown.vue'
 import IconChevronUp from '@/components/icons/IconChevronUp.vue'
-import { capitalizeFirstLetter } from '../utils/capitalize'
 
 // review typings
 const props = defineProps({

@@ -51,7 +51,7 @@ function createFetchResponse(data: any) {
 }
 
 beforeEach(() => {
-  ;(fetch as any).mockReset()
+  (fetch as any).mockReset()
 })
 
 describe('<App />', () => {
